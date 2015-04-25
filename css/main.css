@@ -21,22 +21,30 @@ h1 {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   font-size: 26px;
+  text-align: center;
 }
 
 h2{
   font-size: 24px;
+  background-color: #a33237;
+  padding: 0.5em 0 0.5em 0;
+  margin: 0.5em 0 0.5em 0;
+  text-align: center;
+  border-radius: 4px;
 }
 
 .box {
   background-color: #c6bc86;
-  margin: 0 0.5em 0 0.5em;
-  padding: 0 0.5em 0 0.5em;
-  border: 20px;
-  border-radius: 2px;
+  margin: 0.7em 0 0.7em 0;
+  padding: 0 0.5em 0.3em 0.5em;
+  border-radius: 4px;
 }
 
 .title {
  font-size: 16px;
+ text-align: center;
+ padding: 0.3em 0 0.3em 0;
+ margin: 0;
 }
 
 .location {
@@ -52,8 +60,9 @@ h2{
   display: inline;
 }
 
-ul {
+li {
   text-decoration: none;
+  list-style: none;
 }
 
 img {
@@ -66,4 +75,26 @@ img {
 
 .menu {
   font-size: 19px;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+.top {
+  width: 65%;
+  padding: 0 0 0 7em;
+}
+
+.type2 {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.type {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
 }

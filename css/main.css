@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Comfortaa', cursive;
-  
+
   margin: 0;
 }
 
@@ -10,13 +10,60 @@ html {
 }
 
 body {
-  padding: 0;
+  padding: 0 1em 0 1em;
   margin: 0 auto;
+  font-size: 13px;
 }
 
 h1 {
   color: #c6bc86;
   background-color: #40322b;
-  padding: 0;
-  margin: 0;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  font-size: 26px;
+}
+
+h2{
+  font-size: 24px;
+}
+
+.box {
+  background-color: #c6bc86;
+  margin: 0 0.5em 0 0.5em;
+  padding: 0 0.5em 0 0.5em;
+  border: 20px;
+  border-radius: 2px;
+}
+
+.title {
+ font-size: 16px;
+}
+
+.location {
+  display: block;
+}
+
+.location2 {
+  display: inline-block;
+
+}
+
+.info {
+  display: inline;
+}
+
+ul {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.food {
+  width: 100%;
+}
+
+.menu {
+  font-size: 19px;
 }

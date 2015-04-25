@@ -13,9 +13,9 @@
   <main>
     <header>
       <nav>
-        <h1><a>Top</a>
-        <a>Menu</a>
-        <a>Info</a>
+        <h1 id="top"><a href="#top">Top</a>
+        <a href="#menu">Menu</a>
+        <a href="#info">Info</a>
         </h1>
       </nav>
     <figure>
@@ -40,13 +40,13 @@
   </div>
 
 
-  <h2>Menu</h2>
+  <h2 id="menu">Menu</h2>
   <div class="menu">Eat In</div>
   <figure class="food">
     <img src="images/sushiroll.jpg" alt="">
   </figure>
 
-    <ul class="type">
+    <ul class="categ">
       <li class="name">Sushi</li>
       <li>Salmon</li>
       <li>Tuna</li>
@@ -58,7 +58,7 @@
       <li>Egg</li>
     </ul>
 
-    <ul class="type2">
+    <ul class="categ2">
       <li class="name">Rolls</li>
       <li>California</li>
       <li>Rainbow</li>
@@ -75,7 +75,7 @@
     <img src="images/sashimitempura.jpg" alt="">
   </figure>
 
-    <ul class="type">
+    <ul class="categ3">
       <li class="name">Sashimi</li>
       <li>Salmon</li>
       <li>White Tuna</li>
@@ -88,7 +88,7 @@
     </ul>
 
 
-  <ul class="type2">
+  <ul class="categ4">
     <li class="name">Tempura</li>
     <li>Shrimp</li>
     <li>Squid</li>
@@ -104,7 +104,7 @@
     <img src="images/udonseaweed.jpg" alt="">
   </figure>
 
-    <ul class="type">
+    <ul class="categ5">
       <li class="name">Udon/Soba</li>
       <li>Vegetable</li>
       <li>Dumpling</li>
@@ -115,8 +115,7 @@
       <li>Pork</li>
     </ul>
 
-
-    <ul class="type2">
+    <ul class="categ6">
       <li class="name">Appetizers</li>
       <li>Seaweed Salad</li>
       <li>Edamame</li>
@@ -131,26 +130,24 @@
     <img src="images/partycombo.jpg" alt="">
   </figure>
 
-    <ul class="type">
+    <ul class="categ7">
       <li class="name">Sushi Combo</li>
       <li>Hand Roll set</li>
       <li>Vegetable sushi set</li>
       <li>Maki set (A, B, C, D)</li>
     </ul>
 
-
-
-    <ul class="type2">
-      <li class="class">Party Platters</li
+    <ul class="categ8">
+      <li class="class">Party Platters</li>
       <li>Party Tray A</li>
       <li>Party Tray B</li>
       <li>Party Tray C</li>
       <li>Party Tray D</li>
     </ul>
 
-    <div>Plus all listed in Eat In</div>
+    <div class="extra">Plus all listed in Eat In</div>
 
-    <h2>Information</h2>
+    <h2 id="info">Information</h2>
     <div class="box">
     <div class="title">Location</div>
     <div class="type3">
@@ -175,27 +172,30 @@
 
     <div class="box">
     <div class="title">Prices</div>
-    <p>Lunch		Dinner</p>
-    <ul class="prices">
-    <li>Adult 				    14.95 		23.95</li>
-    <li>Senior (65+)			12.95 		19.95</li>
-    <li>Child (7-9)			  9.95 		  14.95</li>
-    <li>Child (4-6)			  4.95 		  9.95</li>
-    </ul>
+    <p class="lunch">Lunch
+    <p class="dinner">Dinner
+    <ol class="prices">
+    <dl>Adult..........................14.95............23.95</dl>
+    <dl>Senior (65+)...........12.95............19.95</dl>
+    <dl>Child (7-9).................9.95............14.95</dl>
+    <dl>Child (4-6)................4.95.............9.95</dl>
+  </ol>
   </div>
 
   <div class="box">
     <div class="title">Hours</div>
-    <ul class="prices">
-    <li>Mon - Sat 			11:00am - 10:30pm</li>
-    <li>Sun 			     	11:00am - 10:00pm</li>
-  </ul>
+    <ol class="prices">
+    <dl>Mon - Sat..........11:00am - 10:30pm</dl>
+    <dl>Sun.........................11:00am - 10:00pm</dl>
+  </ol>
 </div>
 </main>
 
 <footer>
   <figure class="top">
-    <a><img src="images/topbutton.jpg" alt=""></a>
+    <nav>
+    <a href="#top"><img src="images/topbutton.jpg" alt=""></a>
+  </nav>
   </figure>
 </footer>
 

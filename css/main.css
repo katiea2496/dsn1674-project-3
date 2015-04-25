@@ -36,7 +36,7 @@ h2{
 .box {
   background-color: #c6bc86;
   margin: 0.7em 0 0.7em 0;
-  padding: 0 0.5em 0.3em 0.5em;
+  padding: 0 0.5em 0.3em 0;
   border-radius: 4px;
 }
 
@@ -47,17 +47,8 @@ h2{
  margin: 0;
 }
 
-.location {
-  display: block;
-}
-
-.location2 {
-  display: inline-block;
-
-}
-
-.info {
-  display: inline;
+.name {
+  font-size: 15px;
 }
 
 li {
@@ -67,6 +58,8 @@ li {
 
 img {
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .food {
@@ -75,11 +68,13 @@ img {
 
 .menu {
   font-size: 19px;
+  text-align: center;
 }
 
 figure {
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 .top {
@@ -87,14 +82,42 @@ figure {
   padding: 0 0 0 7em;
 }
 
-.type2 {
-  font-size: 16px;
-  padding: 0;
+.type {
+  padding: 0 0 0 2em;
   margin: 0;
+  float: left;
+  margin-right: 55px;
+  font-size: 13px;
+  display: block;
 }
 
-.type {
-  font-size: 16px;
-  padding: 0;
+.type2 {
+  padding: 0 0 0;
   margin: 0;
+  font-size: 13px;
+}
+
+nav h1 a {
+  line-height: 2em;
+}
+
+.type3 {
+    padding: 0 0 0 0.8em;
+    margin: 0;
+    font-size: 13px;
+    display: block;
+    float: left;
+    margin-right: 15px;
+  }
+
+.type4 {
+    padding: 0 0 0.2em 0.4em;
+    margin: 0;
+    padding-right: 0;
+    font-size: 13px;
+    display: block;
+  }
+
+ul {
+  padding: 0;
 }
